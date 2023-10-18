@@ -38,3 +38,5 @@ hosts:
       args: control recv-message
       start_time: 260
 
+experimental:
+  use_cpu_pinning: false

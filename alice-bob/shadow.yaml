@@ -32,3 +32,6 @@ hosts:
     - path: earendil
       args: control send-message --destination 489HfqWo5Uivgm4xdFy7s2eDMhwW --message helloworld
       start_time: 80
+
+experimental:
+  use_cpu_pinning: false
