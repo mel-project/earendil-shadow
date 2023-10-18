@@ -1,0 +1,40 @@
+general:
+  stop_time: 300s
+  template_directory: ./configs/
+
+network:
+  graph:
+    type: 1_gbit_switch
+
+hosts:
+  alice:
+    ip_addr: 3.4.5.6
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config alice-cfg.yaml 
+      expected_final_state: running
+      start_time: 70 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
+    - path: earendil
+      args: control send-message --destination 2bACMbANy7t7CMgwT2EhcidyFADK --message helloworld # send msg to charlie!
+      start_time: 200
+
+  bob:
+    ip_addr: 1.2.3.4
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config bob-cfg.yaml
+      expected_final_state: running
+
+  charlie:
+    ip_addr: 2.3.4.5
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config charlie-cfg.yaml
+      expected_final_state: running
+    - path: earendil
+      args: control recv-message
+      start_time: 260
+

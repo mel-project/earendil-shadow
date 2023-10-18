@@ -1,0 +1,74 @@
+[2000-01-01T00:00:00Z INFO  earendil::daemon] daemon starting with fingerprint 2bACMbANy7t7CMgwT2EhcidyFADK
+[2000-01-01T00:00:00Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp listen start with cookie 626acdd44321af0ccaa710f1b543e8550772d0354020617ff75cc6d82934a532
+[2000-01-01T00:00:01Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:02Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:03Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:04Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:05Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:06Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:07Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:08Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:09Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:10Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:11Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:12Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:13Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:14Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:15Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:16Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:17Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:18Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:19Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:20Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:21Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:22Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:23Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:24Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:25Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:26Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:27Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:28Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:29Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:30Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:31Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:32Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:33Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:34Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:35Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:36Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:37Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:38Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:39Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:40Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:41Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:42Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:43Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:44Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:45Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:46Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:47Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:48Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:49Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:50Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:51Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:52Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:53Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:54Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:55Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:56Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:57Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:58Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:00:59Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:01:00Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:01:01Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:01:01Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp accepted 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:02Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:02Z TRACE earendil::daemon::gossip] getting identity of 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:02Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:02Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:02Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp accepted 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:01Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp accepted 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:03:01Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp accepted 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:03:20Z DEBUG earendil::daemon] received raw packet
+[2000-01-01T00:03:20Z DEBUG earendil::daemon] peeled packet!
+[2000-01-01T00:04:01Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp accepted 489HfqWo5Uivgm4xdFy7s2eDMhwW

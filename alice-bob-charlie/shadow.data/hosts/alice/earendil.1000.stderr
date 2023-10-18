@@ -1,0 +1,201 @@
+[2000-01-01T00:01:10Z INFO  earendil::daemon] daemon starting with fingerprint 2jZTg8pSZfAYEU4uPeT44tj6AP9G
+[2000-01-01T00:01:10Z DEBUG earendil::daemon::inout_route] obfsudp in_route main_udp listen start with cookie c39c3aadc4a3385dea96ee50c1be4e718c454cf58c54ca253eb3245c3cad451d
+[2000-01-01T00:01:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:01:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor pipe connected...
+[2000-01-01T00:01:11Z DEBUG earendil::daemon::gossip] skipping gossip due to no neighs
+[2000-01-01T00:01:11Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor successful
+[2000-01-01T00:01:12Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:12Z TRACE earendil::daemon::gossip] getting identity of 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:12Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:12Z WARN  earendil::daemon::gossip] gossip with 489HfqWo5Uivgm4xdFy7s2eDMhwW failed: remote refused to sign off
+[2000-01-01T00:01:13Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:13Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:13Z WARN  earendil::daemon::gossip] gossip with 489HfqWo5Uivgm4xdFy7s2eDMhwW failed: remote refused to sign off
+[2000-01-01T00:01:14Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:14Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:14Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:15Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:15Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:15Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:16Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:16Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:16Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:17Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:17Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:17Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:18Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:18Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:18Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:19Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:19Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:19Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:20Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:20Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:20Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:21Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:21Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:21Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:22Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:22Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:22Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:23Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:23Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:23Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:24Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:24Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:24Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:25Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:25Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:25Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:26Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:26Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:26Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:27Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:27Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:27Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:28Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:28Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:28Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:29Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:29Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:29Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:30Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:30Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:30Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:31Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:31Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:31Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:32Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:32Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:32Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:33Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:33Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:33Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:34Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:34Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:34Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:35Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:35Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:35Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:36Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:36Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:36Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:37Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:37Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:37Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:38Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:38Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:38Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:39Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:39Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:39Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:40Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:40Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:40Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:41Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:41Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:41Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:42Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:42Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:42Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:43Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:43Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:43Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:44Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:44Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:44Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:45Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:45Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:45Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:46Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:46Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:46Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:47Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:47Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:47Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:48Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:48Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:48Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:49Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:49Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:49Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:50Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:50Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:50Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:51Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:51Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:51Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:52Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:52Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:52Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:53Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:53Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:53Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:54Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:54Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:54Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:55Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:55Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:55Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:01:56Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:56Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:56Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:01:57Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:57Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:57Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:58Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:58Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:58Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:01:59Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:59Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:01:59Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:02:00Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:00Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:00Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:02:01Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:01Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:01Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:02Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:02Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:02Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:03Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:03Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:03Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2bACMbANy7t7CMgwT2EhcidyFADK!
+[2000-01-01T00:02:04Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:04Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:04Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:02:05Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:05Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:05Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:02:06Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:06Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:06Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:07Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:07Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:07Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:08Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:08Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:08Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:09Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:09Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:09Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:02:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:02:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:02:10Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:10Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor pipe connected...
+[2000-01-01T00:02:10Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 489HfqWo5Uivgm4xdFy7s2eDMhwW!
+[2000-01-01T00:02:11Z TRACE earendil::daemon::gossip] gossiping with random neighbor 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:11Z TRACE earendil::daemon::gossip] signing adjacency with 489HfqWo5Uivgm4xdFy7s2eDMhwW
+[2000-01-01T00:02:11Z DEBUG earendil::daemon::gossip] asking 489HfqWo5Uivgm4xdFy7s2eDMhwW for neighbors of 2jZTg8pSZfAYEU4uPeT44tj6AP9G!
+[2000-01-01T00:02:11Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor successful
+[2000-01-01T00:03:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:03:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:03:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor pipe connected...
+[2000-01-01T00:03:11Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor successful
+[2000-01-01T00:03:20Z DEBUG earendil::daemon] received raw packet
+[2000-01-01T00:03:20Z DEBUG earendil::daemon] peeled packet!
+[2000-01-01T00:04:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:04:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor trying...
+[2000-01-01T00:04:10Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor pipe connected...
+[2000-01-01T00:04:11Z DEBUG earendil::daemon::inout_route] obfsudp out_route neighbor successful

@@ -1,0 +1,18 @@
+identity: ./charlie-identity.asc
+state_cache: ./charlie-state-cache.db
+# control_listen: 127.0.0.1:22222
+
+in_routes:
+  # arbitrary names, used for diagnositics and logging
+  main_udp:
+    protocol: obfsudp
+    listen: 0.0.0.0:18888
+    secret: correct horse battery paper
+
+# out_routes:
+#   # alice
+#   neighbor:
+#     fingerprint: 2jZTg8pSZfAYEU4uPeT44tj6AP9G
+#     protocol: obfsudp
+#     connect: 3.4.5.6:17777
+#     cookie: c39c3aadc4a3385dea96ee50c1be4e718c454cf58c54ca253eb3245c3cad451d

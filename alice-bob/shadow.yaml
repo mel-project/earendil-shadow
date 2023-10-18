@@ -1,0 +1,34 @@
+general:
+  stop_time: 200s
+  template_directory: ./configs/
+
+network:
+  graph:
+    type: 1_gbit_switch
+    # type: gml
+    # file: 
+    #   path: ~/shadow/atlas_v201801.shadow_v2.gml.xz
+
+hosts:
+  relay:
+    ip_addr: 1.2.3.4
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config relay-cfg.yaml
+      expected_final_state: running
+    - path: earendil
+      args: control recv-message
+      start_time: 160
+
+
+  client:
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config client-cfg.yaml 
+      expected_final_state: running
+      start_time: 70 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
+    - path: earendil
+      args: control send-message --destination 489HfqWo5Uivgm4xdFy7s2eDMhwW --message helloworld
+      start_time: 80
