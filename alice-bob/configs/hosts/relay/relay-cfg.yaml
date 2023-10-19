@@ -1,6 +1,5 @@
 identity: ./relay-identity.asc
 state_cache: ./relay-state-cache.db
-control_listen: 127.0.0.1:11111
 
 in_routes:
   # arbitrary names, used for diagnositics and logging
