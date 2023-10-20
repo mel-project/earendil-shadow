@@ -13,5 +13,5 @@ out_routes:
   neighbor:
     fingerprint: e86p9brr5eqvertwqmafz2nxb36sajqy
     protocol: obfsudp
-    connect: 2.3.4.5:67890
+    connect: 2.3.4.5:6789
     cookie: 626acdd44321af0ccaa710f1b543e8550772d0354020617ff75cc6d82934a532

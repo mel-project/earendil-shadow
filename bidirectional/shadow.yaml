@@ -33,7 +33,8 @@ hosts:
     - path: earendil
       args: daemon --config charlie-cfg.yaml
       expected_final_state: running
-    - path: return
+    - path: bash
+      args: return.sh
       start_time: 120
 
 experimental:
