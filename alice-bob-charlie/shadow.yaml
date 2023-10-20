@@ -16,7 +16,7 @@ hosts:
       expected_final_state: running
       start_time: 70 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
     - path: earendil
-      args: control send-message --destination 2bACMbANy7t7CMgwT2EhcidyFADK --message helloworld # send msg to charlie!
+      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message helloworld # send msg to charlie!
       start_time: 200
 
   bob:
