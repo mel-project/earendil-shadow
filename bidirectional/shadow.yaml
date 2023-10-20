@@ -11,12 +11,15 @@ hosts:
     network_node_id: 0
     processes:
     - path: earendil
-      args: daemon --config alice-cfg.yaml 
+      args: daemon --config alice-cfg.yaml
       expected_final_state: running
       start_time: 70
     - path: earendil
-      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message hellome # send msg to charlie!
+      args: control send-message --id not-alice --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message hellome # send anon msg to charlie!
       start_time: 100
+    - path: earendil
+      args: control recv-message
+      start_time: 140
 
   bob:
     ip_addr: 1.2.3.4
