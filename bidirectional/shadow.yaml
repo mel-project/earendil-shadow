@@ -1,0 +1,40 @@
+general:
+  template_directory: configs
+  stop_time: 150s
+
+network:
+  graph:
+    type: 1_gbit_switch
+
+hosts:
+  alice:
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config alice-cfg.yaml 
+      expected_final_state: running
+      start_time: 70
+    - path: earendil
+      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message hellome # send msg to charlie!
+      start_time: 100
+
+  bob:
+    ip_addr: 1.2.3.4
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config bob-cfg.yaml
+      expected_final_state: running
+
+  charlie:
+    ip_addr: 2.3.4.5
+    network_node_id: 0
+    processes:
+    - path: earendil
+      args: daemon --config charlie-cfg.yaml
+      expected_final_state: running
+    - path: return.sh
+      start_time: 120
+
+experimental:
+  use_cpu_pinning: false
