@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # A received message, in the form 'b"{message}" from {sender}'
 received = $(earendil control recv-message)
 
