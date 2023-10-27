@@ -146,6 +146,7 @@ fn get_adjacencies(adjacencies: &Adjacencies) -> anyhow::Result<HashMap<String, 
     let mut map: HashMap<String, HashSet<String>> = HashMap::new();
     for (n1, n2) in adjacencies.adjacencies.iter() {
         map.entry(n1.to_owned()).or_default().insert(n2.to_owned());
+        map.entry(n2.to_owned()).or_default();
     }
     Ok(map)
 }
