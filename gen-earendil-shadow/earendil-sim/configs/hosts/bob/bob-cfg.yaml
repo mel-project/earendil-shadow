@@ -1,0 +1,14 @@
+# bob fingerprint: 99qwq7tms8cktxsptf37pdj3eczbt9fc
+identity: ./bob-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: vJ30z8DW6J
+out_routes:
+  charlie:
+    connect: 200.64.1.2:19999
+    cookie: 072fefe1c659ba034c10d04f19a64959d1943eacaa27c8cad21a43316675a158
+    fingerprint: 40xfwvywhag8sgen33qpr4rvzynxt5vc
+    protocol: obfsudp
+state_cache: ./bob-state-cache.db

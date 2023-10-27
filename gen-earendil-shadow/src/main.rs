@@ -36,8 +36,8 @@ fn main() -> anyhow::Result<()> {
     let mut fingerprints: HashMap<String, Fingerprint> = HashMap::new();
     let mut cookies: HashMap<String, [u8; 32]> = HashMap::new();
 
-    let min: u32 = Ipv4Addr::new(1, 0, 0, 0).into();
-    let max: u32 = Ipv4Addr::new(10, 0, 0, 0).into();
+    let min: u32 = Ipv4Addr::new(200, 64, 1, 1).into();
+    let max: u32 = Ipv4Addr::new(200, 64, 255, 255).into();
 
     for (i, node_name) in adjacencies.keys().enumerate() {
         // ip
@@ -145,21 +145,7 @@ fn main() -> anyhow::Result<()> {
 fn get_adjacencies(adjacencies: &Adjacencies) -> anyhow::Result<HashMap<String, HashSet<String>>> {
     let mut map: HashMap<String, HashSet<String>> = HashMap::new();
     for (n1, n2) in adjacencies.adjacencies.iter() {
-        if let Some(neighbors) = map.get_mut(n1) {
-            neighbors.insert(n2.to_owned());
-        } else {
-            let mut neighbors = HashSet::new();
-            neighbors.insert(n2.to_owned());
-            map.insert(n1.to_owned(), neighbors);
-        }
-
-        if let Some(neighbors) = map.get_mut(n2) {
-            neighbors.insert(n1.to_owned());
-        } else {
-            let mut neighbors = HashSet::new();
-            neighbors.insert(n1.to_owned());
-            map.insert(n2.to_owned(), neighbors);
-        }
+        map.entry(n1.to_owned()).or_default().insert(n2.to_owned());
     }
     Ok(map)
 }
