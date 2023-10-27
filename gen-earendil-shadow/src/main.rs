@@ -117,8 +117,9 @@ fn main() -> anyhow::Result<()> {
     }
     let  shadow_yaml = serde_yaml::to_string(&json!({
         "general": {
-            "template_directory": "configs",
-            "stop_time": "150s"
+            "model_unblocked_syscall_latency": true,
+            "template_directory": "./configs/",
+            "stop_time": "300s"
         },
         "network": {
             "graph": {

@@ -1,0 +1,19 @@
+# bob fingerprint: md244fewrdkr5vyra0akh220hn0kxavk
+identity: ./bob-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: 1zsGrq74bN
+out_routes:
+  alice:
+    connect: 1.0.0.0:19999
+    cookie: 9b4f6741b73b1957a40418f9ef62ea2ff86f1911729b2277ac34d1807ac0b361
+    fingerprint: 8qqn4wr0t8y4xc71qxw6hp0xekansbs4
+    protocol: obfsudp
+  charlie:
+    connect: 1.0.0.1:19999
+    cookie: 407b9f61a2f0315e605c33dc447c8b50e878c40b34c7d2baa4317186a4b85f51
+    fingerprint: 0mkf24a4nv35hh30ah422zfadjx1x2kw
+    protocol: obfsudp
+state_cache: ./bob-state-cache.db

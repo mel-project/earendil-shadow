@@ -1,6 +1,7 @@
 general:
   template_directory: configs
   stop_time: 150s
+  model_unblocked_syscall_latency: true
 
 network:
   graph:
