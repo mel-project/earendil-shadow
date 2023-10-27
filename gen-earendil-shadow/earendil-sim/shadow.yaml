@@ -1,6 +1,6 @@
 general:
   model_unblocked_syscall_latency: true
-  stop_time: 2500s
+  stop_time: 300s
   template_directory: ./configs/
 hosts:
   alice:
@@ -11,25 +11,22 @@ hosts:
       expected_final_state: running
       path: earendil
     - path: earendil
-      args: control send-message --destination 0mkf24a4nv35hh30ah422zfadjx1x2kw 1 1 --message "hello dock" # to charlie
-      start_time: 2400
+      args: control send-message --destination pvb0kxv1t2xj4fgbgbr5vx0z3j6891bj 1 1 --message "hi charlie"
+      start_time: 200
   bob:
-    ip_addr: 1.0.0.2
+    ip_addr: 1.0.0.1
     network_node_id: 0
     processes:
     - args: daemon --config bob-cfg.yaml
       expected_final_state: running
       path: earendil
   charlie:
-    ip_addr: 1.0.0.1
+    ip_addr: 1.0.0.2
     network_node_id: 0
     processes:
     - args: daemon --config charlie-cfg.yaml
       expected_final_state: running
       path: earendil
-    - path: earendil
-      args: control recv-message
-      start_time: 2460
 network:
   graph:
     type: 1_gbit_switch
