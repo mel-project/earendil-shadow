@@ -1,0 +1,34 @@
+# zachary fingerprint: ay0bt03wagf3ft2zcyzwy1pnq6haekja
+identity: ./zachary-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: F9c1koMr3a
+out_routes:
+  derek:
+    connect: 200.64.1.8:19999
+    cookie: 0c18904a9eef9c7d2e5cbe32adb13ef051166e7654f14ed2ca34071f3ce0d65b
+    fingerprint: ncjxwhh8c3bcwqza32b0d9p8g537c79k
+    protocol: obfsudp
+  eric:
+    connect: 200.64.1.9:19999
+    cookie: 92260b4af70b21988f9cd18d4cfb8e82bc2a53c85b7e792a0851ad62137c5b71
+    fingerprint: mjm92348w85nhy351essz3j51pbfkjbw
+    protocol: obfsudp
+  karen:
+    connect: 200.64.1.6:19999
+    cookie: 78d158ffb9a795258b63cc7d0ceeb5ba48435ef77e5bf36a8ba3b324a80cd76b
+    fingerprint: 51cs86ne551nsk0kp45zg658mfaegz73
+    protocol: obfsudp
+  lisa:
+    connect: 200.64.1.2:19999
+    cookie: d94ca75f3cbf2283580f6268c0718316a525ae6c2930998c1ff22d2cee779d57
+    fingerprint: 1j2xqrv4chbzbg32m0cqjpnx1ejd5vg9
+    protocol: obfsudp
+  melanie:
+    connect: 200.64.1.7:19999
+    cookie: d5f4aa7cfe8568f5fd467afa3dc182aee817173dd50d7fb951a842a6359aac17
+    fingerprint: njsh4h0gp2r4bhp1wjvfcjyd4xyzhpd5
+    protocol: obfsudp
+state_cache: ./zachary-state-cache.db

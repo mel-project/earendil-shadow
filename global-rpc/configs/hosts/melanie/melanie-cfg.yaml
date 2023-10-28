@@ -1,0 +1,24 @@
+# melanie fingerprint: kcyhr22b2w6eyn02zfkkdfvq066s77ty
+identity: ./melanie-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: Jd2x89vnvt
+out_routes:
+  carol:
+    connect: 200.64.1.7:19999
+    cookie: 1c6c95c4789b4cc164388e86b2ba461e1eb9d5991428f5d53e75d167eb7cce27
+    fingerprint: 98m70pjcekphn4ev9awmre2mxzwmxs3y
+    protocol: obfsudp
+  nathan:
+    connect: 200.64.1.8:19999
+    cookie: 14d17fd270d88a1dc765ae8ec9a7acaece6850214535c6e0e7e99e3c32911244
+    fingerprint: e2xwv8zvac9yk59r54334pqy312cdrfr
+    protocol: obfsudp
+  oliver:
+    connect: 200.64.1.2:19999
+    cookie: 7f3801397556f66172839842f925e2198354f36b9ced4290a5f6e71b8cbaf602
+    fingerprint: wp036avqcrcjenmb89jg38qps4snvjw9
+    protocol: obfsudp
+state_cache: ./melanie-state-cache.db

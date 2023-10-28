@@ -1,0 +1,19 @@
+# nathan fingerprint: kpxd728sem0awmsxnj22bztt1z2dm8hc
+identity: ./nathan-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: RHxCC0xIEj
+out_routes:
+  karen:
+    connect: 200.64.1.6:19999
+    cookie: 78d158ffb9a795258b63cc7d0ceeb5ba48435ef77e5bf36a8ba3b324a80cd76b
+    fingerprint: 51cs86ne551nsk0kp45zg658mfaegz73
+    protocol: obfsudp
+  oliver:
+    connect: 200.64.1.4:19999
+    cookie: 86991db100a477bf08c0df9950de18a79e044fad43b1d4f140a070bebc51c06c
+    fingerprint: mnzkr7cbt3z9emfb1pqjbv38afhxethd
+    protocol: obfsudp
+state_cache: ./nathan-state-cache.db

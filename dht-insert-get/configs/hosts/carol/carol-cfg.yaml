@@ -1,0 +1,24 @@
+# carol fingerprint: xp9a70cw4vbcqknypn45ah2v7exq2wdj
+identity: ./carol-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: A2fFPUp7sF
+out_routes:
+  karen:
+    connect: 200.64.1.6:19999
+    cookie: 78d158ffb9a795258b63cc7d0ceeb5ba48435ef77e5bf36a8ba3b324a80cd76b
+    fingerprint: 51cs86ne551nsk0kp45zg658mfaegz73
+    protocol: obfsudp
+  nathan:
+    connect: 200.64.1.5:19999
+    cookie: ee2e0cc7ebc84dd9410222102b4580f6a824b6f1a11ec7bede59d7b22253d366
+    fingerprint: kpxd728sem0awmsxnj22bztt1z2dm8hc
+    protocol: obfsudp
+  oliver:
+    connect: 200.64.1.4:19999
+    cookie: 86991db100a477bf08c0df9950de18a79e044fad43b1d4f140a070bebc51c06c
+    fingerprint: mnzkr7cbt3z9emfb1pqjbv38afhxethd
+    protocol: obfsudp
+state_cache: ./carol-state-cache.db
