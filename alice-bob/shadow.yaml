@@ -1,13 +1,11 @@
 general:
   stop_time: 200s
   template_directory: ./configs/
+  model_unblocked_syscall_latency: true
 
 network:
   graph:
     type: 1_gbit_switch
-    # type: gml
-    # file: 
-    #   path: ~/shadow/atlas_v201801.shadow_v2.gml.xz
 
 hosts:
   relay:
@@ -23,15 +21,16 @@ hosts:
 
 
   client:
+    ip_addr: 2.3.4.5
     network_node_id: 0
     processes:
     - path: earendil
       args: daemon --config client-cfg.yaml 
       expected_final_state: running
-      start_time: 70 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
+      start_time: 60 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
     - path: earendil
-      args: control send-message --destination w0pj999ezrc36spw5zz88nn79z9h7mss --message helloworld
-      start_time: 80
+      args: control send-message --destination w0pj999ezrc36spw5zz88nn79z9h7mss 1 1 --message "helloworld"
+      start_time: 100
 
 experimental:
   use_cpu_pinning: false

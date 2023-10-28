@@ -1,7 +1,7 @@
 general:
   stop_time: 300s
   template_directory: ./configs/
-
+  model_unblocked_syscall_latency: true
 network:
   graph:
     type: 1_gbit_switch
@@ -14,9 +14,8 @@ hosts:
     - path: earendil
       args: daemon --config alice-cfg.yaml 
       expected_final_state: running
-      start_time: 70 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
     - path: earendil
-      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message helloworld # send msg to charlie!
+      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy 1 1 --message hellocharlie # send msg to charlie!
       start_time: 200
 
   bob:

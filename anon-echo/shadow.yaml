@@ -1,6 +1,7 @@
 general:
   template_directory: configs
   stop_time: 150s
+  model_unblocked_syscall_latency: true
 
 network:
   graph:
@@ -15,7 +16,7 @@ hosts:
       expected_final_state: running
       start_time: 70
     - path: earendil
-      args: control send-message --id not-alice --destination e86p9brr5eqvertwqmafz2nxb36sajqy --message hellome # send anon msg to charlie!
+      args: control send-message --id not-alice --destination e86p9brr5eqvertwqmafz2nxb36sajqy 1 1 --message hellome # send anon msg to charlie!
       start_time: 100
     - path: earendil
       args: control recv-message
