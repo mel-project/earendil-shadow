@@ -5,8 +5,8 @@ rm -rf shadow.data && shadow shadow.yaml;
 #!/bin/bash
 
 # Define the directory and the string to be searched
-FILE_PATH="./shadow.data/hosts/relay/earendil.1004.stdout"
-SEARCH_STRING="helloworld"
+FILE_PATH="./shadow.data/hosts/alice/earendil.1010.stdout"
+SEARCH_STRING="hellome"
 
 # Check each file in the directory for the search string
 if grep -q "$SEARCH_STRING" "$FILE_PATH"; then
