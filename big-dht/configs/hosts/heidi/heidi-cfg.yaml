@@ -1,0 +1,14 @@
+# heidi fingerprint: w4a2az2ew1mp9jnkr6rz13vy9p0sbgt3
+identity: ./heidi-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: q14MMWQcwL
+out_routes:
+  ivan:
+    connect: 200.64.1.20:19999
+    cookie: e44d1128553037b044f421751bfae15af5ef2895e1d873617ec9fa8d7f4a186d
+    fingerprint: ba22x266fzs3mtwasq2nnsk7bafqbdw2
+    protocol: obfsudp
+state_cache: ./heidi-state-cache.db

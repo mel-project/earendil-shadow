@@ -1,0 +1,9 @@
+# rupert fingerprint: x7vfb355kgf5qzn7j77xcpwnafendg58
+identity: ./rupert-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: V0EDDu5mzO
+out_routes: {}
+state_cache: ./rupert-state-cache.db

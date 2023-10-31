@@ -1,0 +1,14 @@
+# sybil fingerprint: ca67g7tpd8nkks6h4jjv91kms8axdmc0
+identity: ./sybil-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: T036X83dgy
+out_routes:
+  trent:
+    connect: 200.64.1.13:19999
+    cookie: a9ab5bffdbcf6c0d2c7900a94c149d9c4747603d2183bd88efba1552f6a8ad62
+    fingerprint: a807qqgkmhfxfdtah12a56vqyk7e3qcj
+    protocol: obfsudp
+state_cache: ./sybil-state-cache.db

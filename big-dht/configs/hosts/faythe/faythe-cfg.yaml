@@ -1,0 +1,14 @@
+# faythe fingerprint: t0y1xysx85n4dxy1ntq41d9gax9zp7fp
+identity: ./faythe-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: uNXXZTtfSR
+out_routes:
+  grace:
+    connect: 200.64.1.3:19999
+    cookie: 95c8496d5280a91271b7f12c1e03aa334bdba4fc0ec346a6bddce15a35061e7d
+    fingerprint: xe8k48177na9rg52syvbt9g0gzbp3afe
+    protocol: obfsudp
+state_cache: ./faythe-state-cache.db

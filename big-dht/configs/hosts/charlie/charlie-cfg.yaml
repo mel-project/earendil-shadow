@@ -1,0 +1,14 @@
+# charlie fingerprint: y16fydts104wstmj0fr9fm4p05xry51b
+identity: ./charlie-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: rcQMf1v9w4
+out_routes:
+  dan:
+    connect: 200.64.1.19:19999
+    cookie: df032832a3d31b1daa0e4167932940465a57a8e7294c9fb0fde05fdf4f1dbd73
+    fingerprint: 8chhazqw532prcxz66t719qv87bwnm2b
+    protocol: obfsudp
+state_cache: ./charlie-state-cache.db

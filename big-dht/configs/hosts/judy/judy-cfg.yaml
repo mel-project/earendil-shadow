@@ -1,0 +1,14 @@
+# judy fingerprint: n26w340eqznceqd4mxbww743v1nm9gm9
+identity: ./judy-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: iV63rpAzVR
+out_routes:
+  kyle:
+    connect: 200.64.1.17:19999
+    cookie: 52a81b7dbe9b838a2ef7413fc7e73ae22520e83fb5863d7d7120a093bd024161
+    fingerprint: vpjg27nremn2fjt0jk9419mfxk60kc7f
+    protocol: obfsudp
+state_cache: ./judy-state-cache.db

@@ -1,0 +1,14 @@
+# dan fingerprint: 8chhazqw532prcxz66t719qv87bwnm2b
+identity: ./dan-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: gBrtGKfT6g
+out_routes:
+  eve:
+    connect: 200.64.1.4:19999
+    cookie: 0632708a79ee3b07063e4b948d88ee1adfd32da554b8aa935a3f879cda022702
+    fingerprint: 4vsbjn9j64rga76z18qv7g92ct6myvyy
+    protocol: obfsudp
+state_cache: ./dan-state-cache.db

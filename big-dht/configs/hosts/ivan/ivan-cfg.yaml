@@ -1,0 +1,14 @@
+# ivan fingerprint: ba22x266fzs3mtwasq2nnsk7bafqbdw2
+identity: ./ivan-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: U4mAmkSWIR
+out_routes:
+  judy:
+    connect: 200.64.1.6:19999
+    cookie: 82163eef3ac5bc733c6c4fe72ef00550948a337ec63c51c46ef98e0c39627a64
+    fingerprint: n26w340eqznceqd4mxbww743v1nm9gm9
+    protocol: obfsudp
+state_cache: ./ivan-state-cache.db

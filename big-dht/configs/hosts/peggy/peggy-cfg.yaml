@@ -1,0 +1,14 @@
+# peggy fingerprint: chg4htmbvfm505c01d304jdjtcscq280
+identity: ./peggy-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: uIWwGgV8R0
+out_routes:
+  quetzal:
+    connect: 200.64.1.11:19999
+    cookie: 3109ef1fcf68f2410207f8bc4021e6d2452aa250dcdddb8304555a7dfa5f3404
+    fingerprint: rg6p8dbjbqvapb9r72xfq5p1hf2xvzg9
+    protocol: obfsudp
+state_cache: ./peggy-state-cache.db

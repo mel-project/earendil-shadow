@@ -1,0 +1,14 @@
+# eve fingerprint: 4vsbjn9j64rga76z18qv7g92ct6myvyy
+identity: ./eve-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: 6M3tHRRPlS
+out_routes:
+  faythe:
+    connect: 200.64.1.5:19999
+    cookie: 9232b7ce827f2853dbce84185092e8ef6887bf954fc263ded07a426385bb6219
+    fingerprint: t0y1xysx85n4dxy1ntq41d9gax9zp7fp
+    protocol: obfsudp
+state_cache: ./eve-state-cache.db

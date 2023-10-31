@@ -1,0 +1,14 @@
+# liam fingerprint: 765dd8qyvqgcb1kjmtyk2p4fvtsxvxrg
+identity: ./liam-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: D69dXhuvhq
+out_routes:
+  mallory:
+    connect: 200.64.1.8:19999
+    cookie: 7a19541016e1e6aad6972558d5826f4140f2dce74002c8ccc01ea32e4ed8574f
+    fingerprint: 416qsccvqpp0rzymbsyh71kfazx0xk9e
+    protocol: obfsudp
+state_cache: ./liam-state-cache.db

@@ -98,7 +98,7 @@ fn main() -> anyhow::Result<()> {
             },
             "out_routes": out_routes
         });
-        let fingerprint_comment = format!("# {} fingerprint: {}\n", node_name, fingerprints.get(node_name).unwrap().to_string());
+        let fingerprint_comment = format!("# {} fingerprint: {}\n", node_name, fingerprints.get(node_name).unwrap());
         earendil_configs.push((node_name.to_owned(), fingerprint_comment + &serde_yaml::to_string(&earendil_json)?));
 
         // shadow host

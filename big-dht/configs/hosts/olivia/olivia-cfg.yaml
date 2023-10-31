@@ -1,0 +1,14 @@
+# olivia fingerprint: 4xt4m5meyeaxq9qnc9nfeaf8dk90xv5k
+identity: ./olivia-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: nTyKrSnHbD
+out_routes:
+  peggy:
+    connect: 200.64.1.2:19999
+    cookie: 1ed7958c3f6dc584227c32c946d97fa510c80d7f49addc0383d2f38091de6942
+    fingerprint: chg4htmbvfm505c01d304jdjtcscq280
+    protocol: obfsudp
+state_cache: ./olivia-state-cache.db
