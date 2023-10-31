@@ -17,6 +17,6 @@ done
 for fingerprint in "${fingerprints[@]}"; do
     for key in "${keys[@]}"; do
         destination="${fingerprint//\"}"
-        earendil control global-rpc --destination $destination --method dht-get "$key"
+        earendil control global-rpc --destination $destination --method dht_get "$key"
     done
 done

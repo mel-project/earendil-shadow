@@ -20,7 +20,7 @@ echo ${fingerprints[@]}
 for i in {0..2}; do
     index=$(( RANDOM % ${#fingerprints[@]} ))
     destination="${fingerprints[$index]//\"}"
-    earendil control global-rpc --destination $destination --method dht-insert "${keys[$i]}" "${values[$i]}"
+    earendil control global-rpc --destination $destination --method dht_insert "${keys[$i]}" "${values[$i]}" true
 done
 
 echo "finished DHT insertions"
