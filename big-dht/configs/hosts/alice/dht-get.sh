@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# Workaround to add users' local binaries to path
+for dir in /home/*/ ; do
+    PATH=$PATH:"$dir".local/bin:$PATH:"$dir".cargo/bin
+done
+
 keys=("hello" "salutations" "greetings")
 fingerprints=()
 
