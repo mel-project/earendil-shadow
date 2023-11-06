@@ -1,0 +1,24 @@
+# bella fingerprint: s8xjv8jyzkgfywyv0kwf48dv9adg16c5
+identity: ./bella-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: d1JimMqcT8
+out_routes:
+  charles:
+    connect: 200.64.1.22:19999
+    cookie: 29e76793e771e64993b37efcf32ff9359dbeba4515d736763852f27d2040fe31
+    fingerprint: qrd3wrjs8g2dgj5xzsmntfway0jyey9x
+    protocol: obfsudp
+  diana:
+    connect: 200.64.1.23:19999
+    cookie: cf28649cae56c8cdb30f08a61a033bbe56e957008502bf251563d6d10695c72f
+    fingerprint: tq6ebm6gvvkyp3jwfgmvg9e0sjkq3feg
+    protocol: obfsudp
+  elijah:
+    connect: 200.64.1.20:19999
+    cookie: 4b584642685ea503c2472185d6f5414b463c321ffcd11f99574ad14ed5e3d47e
+    fingerprint: frhy44m64p3yvdwgdrj40at2865ex7vx
+    protocol: obfsudp
+state_cache: ./bella-state-cache.db

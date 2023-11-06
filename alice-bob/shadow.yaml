@@ -8,6 +8,7 @@ network:
     type: 1_gbit_switch
 
 hosts:
+  # bob
   relay:
     ip_addr: 1.2.3.4
     network_node_id: 0
@@ -16,10 +17,12 @@ hosts:
       args: daemon --config relay-cfg.yaml
       expected_final_state: running
     - path: earendil
-      args: control recv-message
+      args: control bind-n2r --socket-id bob --dock 303
+      start_time: 10
+    - path: earendil
+      args: control recv-message --socket-id bob
       start_time: 160
-
-
+  # alice
   client:
     ip_addr: 2.3.4.5
     network_node_id: 0
@@ -29,7 +32,10 @@ hosts:
       expected_final_state: running
       start_time: 60 # obfsudp: for replay attack, the relay only accepts connections 60 seconds after starting
     - path: earendil
-      args: control send-message --destination w0pj999ezrc36spw5zz88nn79z9h7mss 1 1 --message "helloworld"
+      args: control bind-n2r --socket-id alice
+      start_time: 70
+    - path: earendil
+      args: control send-message --socket-id alice --destination "w0pj999ezrc36spw5zz88nn79z9h7mss::303" --message "helloworld"
       start_time: 100
 
 experimental:

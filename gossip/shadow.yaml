@@ -1,0 +1,184 @@
+general:
+  model_unblocked_syscall_latency: true
+  stop_time: 86450s
+  template_directory: ./configs/
+hosts:
+  adam:
+    ip_addr: 200.64.1.19
+    network_node_id: 0
+    processes:
+    - args: daemon --config adam-cfg.yaml
+      expected_final_state: running
+      path: earendil
+    - path: earendil
+      args: control graph-dump
+      start_time: 200
+    - path: earendil
+      args: control graph-dump
+      start_time: 500
+    - path: earendil
+      args: control graph-dump
+      start_time: 2000
+    - path: earendil
+      args: control graph-dump
+      start_time: 5000
+    - path: earendil
+      args: control graph-dump
+      start_time: 10000
+  bella:
+    ip_addr: 200.64.1.21
+    network_node_id: 0
+    processes:
+    - args: daemon --config bella-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  carol:
+    ip_addr: 200.64.1.5
+    network_node_id: 0
+    processes:
+    - args: daemon --config carol-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  charles:
+    ip_addr: 200.64.1.22
+    network_node_id: 0
+    processes:
+    - args: daemon --config charles-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  derek:
+    ip_addr: 200.64.1.2
+    network_node_id: 0
+    processes:
+    - args: daemon --config derek-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  diana:
+    ip_addr: 200.64.1.23
+    network_node_id: 0
+    processes:
+    - args: daemon --config diana-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  elijah:
+    ip_addr: 200.64.1.20
+    network_node_id: 0
+    processes:
+    - args: daemon --config elijah-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  eric:
+    ip_addr: 200.64.1.18
+    network_node_id: 0
+    processes:
+    - args: daemon --config eric-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  fiona:
+    ip_addr: 200.64.1.1
+    network_node_id: 0
+    processes:
+    - args: daemon --config fiona-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  george:
+    ip_addr: 200.64.1.9
+    network_node_id: 0
+    processes:
+    - args: daemon --config george-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  hannah:
+    ip_addr: 200.64.1.3
+    network_node_id: 0
+    processes:
+    - args: daemon --config hannah-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  ian:
+    ip_addr: 200.64.1.15
+    network_node_id: 0
+    processes:
+    - args: daemon --config ian-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  jasmine:
+    ip_addr: 200.64.1.16
+    network_node_id: 0
+    processes:
+    - args: daemon --config jasmine-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  karen:
+    ip_addr: 200.64.1.11
+    network_node_id: 0
+    processes:
+    - args: daemon --config karen-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  kevin:
+    ip_addr: 200.64.1.7
+    network_node_id: 0
+    processes:
+    - args: daemon --config kevin-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  laura:
+    ip_addr: 200.64.1.14
+    network_node_id: 0
+    processes:
+    - args: daemon --config laura-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  lisa:
+    ip_addr: 200.64.1.12
+    network_node_id: 0
+    processes:
+    - args: daemon --config lisa-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  mark:
+    ip_addr: 200.64.1.17
+    network_node_id: 0
+    processes:
+    - args: daemon --config mark-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  melanie:
+    ip_addr: 200.64.1.10
+    network_node_id: 0
+    processes:
+    - args: daemon --config melanie-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  nathan:
+    ip_addr: 200.64.1.6
+    network_node_id: 0
+    processes:
+    - args: daemon --config nathan-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  nora:
+    ip_addr: 200.64.1.8
+    network_node_id: 0
+    processes:
+    - args: daemon --config nora-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  oliver:
+    ip_addr: 200.64.1.13
+    network_node_id: 0
+    processes:
+    - args: daemon --config oliver-cfg.yaml
+      expected_final_state: running
+      path: earendil
+  zachary:
+    ip_addr: 200.64.1.4
+    network_node_id: 0
+    processes:
+    - args: daemon --config zachary-cfg.yaml
+      expected_final_state: running
+      path: earendil
+network:
+  graph:
+    type: 1_gbit_switch

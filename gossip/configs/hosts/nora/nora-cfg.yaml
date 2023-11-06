@@ -1,0 +1,9 @@
+# nora fingerprint: ebcmq5nf96bf3r2916ca1ydj1v7za18p
+identity: ./nora-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: WfCHPvRyrn
+out_routes: {}
+state_cache: ./nora-state-cache.db

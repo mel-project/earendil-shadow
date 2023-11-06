@@ -1,0 +1,24 @@
+# jasmine fingerprint: w620rkwp7a1qnxs9jtywg1fb384c5ggr
+identity: ./jasmine-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: jegbl3Xq62
+out_routes:
+  kevin:
+    connect: 200.64.1.7:19999
+    cookie: b1365ba25fb7867478ee51897ce53f2070575bcff5589f5bf84b899b4e9ed622
+    fingerprint: b5mh48z1h8cmcc3dx0dphtgwe49fmygk
+    protocol: obfsudp
+  laura:
+    connect: 200.64.1.14:19999
+    cookie: 0864d5affb3b3cd7058fe1a9ee56fbe1bc7af30c55bf7696f51cabd73fbb0c3f
+    fingerprint: 73kfays1knf9rajgcxxma7cq0rnp05t8
+    protocol: obfsudp
+  mark:
+    connect: 200.64.1.17:19999
+    cookie: 1b8bdb5ce9497d5e4751b62e4ea295fc26895c5d6ae0fabf6873252072cd3f59
+    fingerprint: apys3gvs65w4d8t3mcqk3jfh7r9ppwfa
+    protocol: obfsudp
+state_cache: ./jasmine-state-cache.db

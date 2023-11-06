@@ -1,0 +1,9 @@
+# bob fingerprint: pqrzkhgy69m9km2nn9qj1df0788zh9k7
+identity: ./bob-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: hf6RdOz07P
+out_routes: {}
+state_cache: ./bob-state-cache.db
