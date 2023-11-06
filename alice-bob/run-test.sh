@@ -4,7 +4,7 @@
 rm -rf shadow.data && shadow shadow.yaml;
 
 # Define the file and the string to be searched
-FILE_PATH="./shadow.data/hosts/relay/earendil.1004.stdout"
+FILE_PATH="./shadow.data/hosts/relay/earendil.1010.stdout"
 SEARCH_STRING="helloworld"
 
 # Check the file for the search string

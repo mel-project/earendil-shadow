@@ -1,0 +1,14 @@
+# oliver fingerprint: 0rp10je50g7090xhzzj8v62a4y51tpc1
+identity: ./oliver-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: 4Q5GCgUJrh
+out_routes:
+  karen:
+    connect: 200.64.1.11:19999
+    cookie: ca32d4da4072d9e3e5abe1de20ae6de2399e4c9c0ef15579535550b03ade3722
+    fingerprint: xne5n83gd1x1918yr23xc2z7rkf887qb
+    protocol: obfsudp
+state_cache: ./oliver-state-cache.db

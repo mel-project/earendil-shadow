@@ -1,0 +1,24 @@
+# karen fingerprint: xne5n83gd1x1918yr23xc2z7rkf887qb
+identity: ./karen-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: Vzu29BZVlZ
+out_routes:
+  derek:
+    connect: 200.64.1.2:19999
+    cookie: 2a21e16991125022bc40a467b2c002c4485d6fd4a1b89988e9ac343fe931b444
+    fingerprint: rfd1vzbv3zc6w1fjpmmrq009frjtxa7r
+    protocol: obfsudp
+  lisa:
+    connect: 200.64.1.12:19999
+    cookie: c4f81e49f8f0fef5dc038601417dee5c2856dae7c1b5dbf30f50af9a51ba2f0d
+    fingerprint: c842zjd1b6dw430bqns1na8hwa63v5zc
+    protocol: obfsudp
+  zachary:
+    connect: 200.64.1.4:19999
+    cookie: 5562638e7603512eeee14eaf6d446e1f2c71d0331499587d74ea28c7c112a130
+    fingerprint: a7pc7bk6gd4wrxwx2q7n5eaccmv2pz6c
+    protocol: obfsudp
+state_cache: ./karen-state-cache.db

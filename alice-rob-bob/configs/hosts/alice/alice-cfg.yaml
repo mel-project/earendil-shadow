@@ -1,0 +1,14 @@
+# alice fingerprint: rm3tcd0wmsvx2x732p4e114askgzxrwc
+identity: ./alice-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: jq94wvhvO8
+out_routes:
+  rob:
+    connect: 200.64.1.3:19999
+    cookie: 26ba976eaff7938bc91ba0ae0bd8c80c875fdb721b93289a6bab293c6c4dd977
+    fingerprint: d3ngse8f3gk3rrhax8xrcvfdp6grgckj
+    protocol: obfsudp
+state_cache: ./alice-state-cache.db

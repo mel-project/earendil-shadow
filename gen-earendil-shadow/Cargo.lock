@@ -854,6 +854,7 @@ dependencies = [
  "anyhow",
  "arrayref",
  "base32",
+ "base64",
  "blake3",
  "bytes",
  "ed25519-compact",

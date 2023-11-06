@@ -1,0 +1,24 @@
+# george fingerprint: 278byt8qe39e433m530hg2ckg6mf790t
+identity: ./george-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: faiLAz9mmp
+out_routes:
+  hannah:
+    connect: 200.64.1.3:19999
+    cookie: 0bc291f41b93c7c03e2abd3c94642d6fa16c412b4bfaf051796b8e2eaff9117e
+    fingerprint: dw9z47ghyrcqgyzqjet203vzz5veyvwm
+    protocol: obfsudp
+  ian:
+    connect: 200.64.1.15:19999
+    cookie: 26841364b73a904e2a1337f328e3cb520ce81c88fa846e220306e6854341ba66
+    fingerprint: 0ps4gbsgs4x2kahdas6hdv50x688asht
+    protocol: obfsudp
+  jasmine:
+    connect: 200.64.1.16:19999
+    cookie: b519313a7c1ba9d5e0e884b1deb5f8386d67c224b4d4e58e6afc7fc862e1f723
+    fingerprint: w620rkwp7a1qnxs9jtywg1fb384c5ggr
+    protocol: obfsudp
+state_cache: ./george-state-cache.db

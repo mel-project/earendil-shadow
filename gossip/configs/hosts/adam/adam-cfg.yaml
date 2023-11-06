@@ -1,0 +1,24 @@
+# adam fingerprint: d5fzbcnge35q60yebks1d4f69a203tew
+identity: ./adam-identity.asc
+in_routes:
+  main_udp:
+    listen: 0.0.0.0:19999
+    protocol: obfsudp
+    secret: ioBpEjj2w1
+out_routes:
+  bella:
+    connect: 200.64.1.21:19999
+    cookie: 285ca5361bb19bc6a1c60c6237c16d21e0cd87d2aa2dc81ee007643e52197120
+    fingerprint: s8xjv8jyzkgfywyv0kwf48dv9adg16c5
+    protocol: obfsudp
+  charles:
+    connect: 200.64.1.22:19999
+    cookie: 29e76793e771e64993b37efcf32ff9359dbeba4515d736763852f27d2040fe31
+    fingerprint: qrd3wrjs8g2dgj5xzsmntfway0jyey9x
+    protocol: obfsudp
+  diana:
+    connect: 200.64.1.23:19999
+    cookie: cf28649cae56c8cdb30f08a61a033bbe56e957008502bf251563d6d10695c72f
+    fingerprint: tq6ebm6gvvkyp3jwfgmvg9e0sjkq3feg
+    protocol: obfsudp
+state_cache: ./adam-state-cache.db
