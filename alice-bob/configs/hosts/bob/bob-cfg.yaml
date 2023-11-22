@@ -1,5 +1,5 @@
-identity: ./relay-identity.asc
-state_cache: ./relay-state-cache.db
+identity: ./bob-identity.asc
+state_cache: ./bob-state-cache.db
 
 in_routes:
   # arbitrary names, used for diagnositics and logging

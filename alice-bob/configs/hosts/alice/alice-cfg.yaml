@@ -1,5 +1,5 @@
-identity: ./client-identity.asc
-state_cache:  ./client-state-cache.db
+identity: ./alice-identity.asc
+state_cache:  ./alice-state-cache.db
 
 out_routes:
   neighbor:

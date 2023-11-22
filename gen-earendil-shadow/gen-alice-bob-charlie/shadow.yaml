@@ -11,7 +11,7 @@ hosts:
       expected_final_state: running
       path: earendil
     - path: earendil
-      args: control send-message --destination e527vkaj2cdpep9bej004b64916p0xfr 1 1 --message "hello charlie"
+      args: control send-msg --dest e527vkaj2cdpep9bej004b64916p0xfr 1 1 --msg "hello charlie"
       start_time: 150
   bob:
     ip_addr: 200.64.1.1
@@ -28,7 +28,7 @@ hosts:
       expected_final_state: running
       path: earendil
     - path: earendil
-      args: control recv-message
+      args: control recv-msg
       start_time: 200
 network:
   graph:

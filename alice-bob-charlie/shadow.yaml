@@ -15,7 +15,10 @@ hosts:
       args: daemon --config alice-cfg.yaml 
       expected_final_state: running
     - path: earendil
-      args: control send-message --destination e86p9brr5eqvertwqmafz2nxb36sajqy 1 1 --message hellocharlie # send msg to charlie!
+      args: control bind-n2r --skt-id alice
+      start_time: 10
+    - path: earendil
+      args: control send-msg --skt-id alice --dest e86p9brr5eqvertwqmafz2nxb36sajqy:100 --msg hellocharlie # send msg to charlie!
       start_time: 200
 
   bob:
@@ -34,7 +37,10 @@ hosts:
       args: daemon --config charlie-cfg.yaml
       expected_final_state: running
     - path: earendil
-      args: control recv-message
+      args: control bind-n2r --skt-id charlie --dock 100
+      start_time: 10
+    - path: earendil
+      args: control recv-msg --skt-id charlie
       start_time: 260
 
 experimental:

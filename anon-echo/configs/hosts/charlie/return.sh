@@ -6,7 +6,7 @@ for dir in /home/*/ ; do
 done
 
 # A received message, in the form 'b"{message}" from {sender}'
-received=$(earendil control recv-message)
+received=$(earendil control recv-msg --skt-id charlie)
 
 # Extract message
 message=$(echo "$received" | cut -d'"' -f2)
@@ -14,4 +14,4 @@ message=$(echo "$received" | cut -d'"' -f2)
 # Extract sender
 sender=$(echo "$received" | rev | cut -d' ' -f1 | rev)
 
-earendil control send-message --destination $sender 1 1 --message $message
+earendil control send-msg --skt-id charlie --dest "$sender:1" --msg $message

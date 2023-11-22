@@ -28,7 +28,7 @@ hosts:
       args: control graph-dump
       start_time: 300
     - path: earendil
-      args: control global-rpc --destination n8gvjevtgzv4qwsm87ngd31n5bygwmyz --method ping 12345 # to zachary
+      args: control global-rpc --dest n8gvjevtgzv4qwsm87ngd31n5bygwmyz --method ping 12345 # to zachary
       start_time: 350
   karen:
     ip_addr: 200.64.1.3

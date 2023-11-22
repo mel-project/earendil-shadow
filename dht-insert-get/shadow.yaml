@@ -11,7 +11,7 @@ hosts:
       expected_final_state: running
       path: earendil
     - path: earendil
-      args: control global-rpc --destination 1j2xqrv4chbzbg32m0cqjpnx1ejd5vg9 --method dht_insert foo bar true # to lisa
+      args: control global-rpc --dest 1j2xqrv4chbzbg32m0cqjpnx1ejd5vg9 --method dht_insert foo bar true # to lisa
       start_time: 240
   derek:
     ip_addr: 200.64.1.8
@@ -28,7 +28,7 @@ hosts:
       expected_final_state: running
       path: earendil
     - path: earendil
-      args: control global-rpc --destination 51cs86ne551nsk0kp45zg658mfaegz73 --method dht_get foo true # to karen
+      args: control global-rpc --dest 51cs86ne551nsk0kp45zg658mfaegz73 --method dht_get foo true # to karen
       start_time: 260  
   karen:
     ip_addr: 200.64.1.6

@@ -16,10 +16,13 @@ hosts:
       expected_final_state: running
       start_time: 70
     - path: earendil
-      args: control send-message --id not-alice --destination e86p9brr5eqvertwqmafz2nxb36sajqy 1 1 --message hellome # send anon msg to charlie!
+      args: control bind-n2r --skt-id alice --anon-id ahliss --dock 1
+      start_time: 90
+    - path: earendil
+      args: control send-msg --skt-id alice --dest e86p9brr5eqvertwqmafz2nxb36sajqy:32 --msg hellome # send anon msg to charlie!
       start_time: 100
     - path: earendil
-      args: control recv-message
+      args: control recv-msg --skt-id alice
       start_time: 140
 
   bob:
@@ -37,6 +40,9 @@ hosts:
     - path: earendil
       args: daemon --config charlie-cfg.yaml
       expected_final_state: running
+    - path: earendil
+      args: control bind-n2r --skt-id charlie --dock 32
+      start_time: 10
     - path: bash
       args: return.sh
       start_time: 120
