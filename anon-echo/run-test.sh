@@ -4,7 +4,7 @@
 rm -rf shadow.data && shadow shadow.yaml;
 
 # Define the file and the string to be searched
-FILE_PATH="./shadow.data/hosts/alice/earendil.1010.stdout"
+FILE_PATH="./shadow.data/hosts/alice/earendil.1015.stdout"
 SEARCH_STRING="hellome"
 
 # Check the file for the search string

@@ -14,4 +14,4 @@ message=$(echo "$received" | cut -d'"' -f2)
 # Extract sender
 sender=$(echo "$received" | rev | cut -d' ' -f1 | rev)
 
-earendil control send-msg --skt-id charlie --dest "$sender:1" --msg $message
+earendil control send-msg --skt-id charlie --dest $sender --msg $message
