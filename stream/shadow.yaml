@@ -1,6 +1,6 @@
 general:
   model_unblocked_syscall_latency: true
-  stop_time: 120
+  stop_time: 240
   template_directory: configs
 hosts:
   alice:
@@ -12,7 +12,8 @@ hosts:
       expected_final_state: running
     - path: bash
       args: tcp-client.sh
-      start_time: 60
+      start_time: 120
+      expected_final_state: running
 
   bob:
     ip_addr: 200.64.1.2
@@ -23,6 +24,7 @@ hosts:
       expected_final_state: running
     - path: bash
       args: tcp-server.sh
+      expected_final_state: running
 
   rob:
     ip_addr: 200.64.1.3
