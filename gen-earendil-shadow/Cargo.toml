@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
+bip39 = "2.0.0"
 blake3 = "1.5.0"
 clap = { version="4.4.7", features = ["derive"] }
 earendil_crypt = {path = "../../earendil/libraries/earendil_crypt/"}

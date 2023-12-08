@@ -1,9 +1,0 @@
-# trent fingerprint: a807qqgkmhfxfdtah12a56vqyk7e3qcj
-identity: ./trent-identity.asc
-in_routes:
-  main_udp:
-    listen: 0.0.0.0:19999
-    protocol: obfsudp
-    secret: vpOl9tcov2
-out_routes: {}
-state_cache: ./trent-state-cache.db

@@ -1,8 +1,0 @@
-identity: ./charlie-identity.asc
-state_cache: ./charlie-state-cache.db
-
-in_routes:
-  main_udp:
-    protocol: obfsudp
-    listen: 0.0.0.0:6789
-    secret: correct horse battery paper
