@@ -36,7 +36,7 @@ fn main() -> anyhow::Result<()> {
     let adjacencies = get_adjacencies(&adjacencies)?;
 
     let mut ips: HashMap<String, Ipv4Addr> = HashMap::new();
-    let mut ports: HashMap<String, u16> = HashMap::new();
+    let mut obfsudp_ports: HashMap<String, u16> = HashMap::new();
     let mut secrets: HashMap<String, String> = HashMap::new();
     let mut identity_seeds: HashMap<String, String> = HashMap::new();
     let mut fingerprints: HashMap<String, Fingerprint> = HashMap::new();
@@ -62,7 +62,7 @@ fn main() -> anyhow::Result<()> {
         }
 
         // port
-        ports.insert(node_name.to_owned(), listen_port);
+        obfsudp_ports.insert(node_name.to_owned(), listen_port);
         listen_port += 1;
 
         // control listen
@@ -111,7 +111,7 @@ fn main() -> anyhow::Result<()> {
                     json!({
                             "fingerprint": fingerprints.get(neigh).unwrap().to_string(),
                             "protocol": "obfsudp",
-                            "connect": SocketAddr::new(ip, *ports.get(neigh).unwrap()).to_string(),
+                            "connect": SocketAddr::new(ip, *obfsudp_ports.get(neigh).unwrap()).to_string(),
                             "cookie": hex::encode(cookies.get(neigh).unwrap()),
 
                     }),
@@ -126,7 +126,7 @@ fn main() -> anyhow::Result<()> {
                     "main_udp":
                     {
                         "protocol": "obfsudp",
-                        "listen": "0.0.0.0:".to_owned() + &ports.get(node_name).unwrap().to_string(),
+                        "listen": "0.0.0.0:".to_owned() + &obfsudp_ports.get(node_name).unwrap().to_string(),
                         "secret": secrets.get(node_name).unwrap()
                     }
                 },
@@ -141,7 +141,7 @@ fn main() -> anyhow::Result<()> {
                     "main_udp":
                     {
                         "protocol": "obfsudp",
-                        "listen": "0.0.0.0:".to_owned() + &ports.get(node_name).unwrap().to_string(),
+                        "listen": "0.0.0.0:".to_owned() + &obfsudp_ports.get(node_name).unwrap().to_string(),
                         "secret": secrets.get(node_name).unwrap()
                     }
                 },
