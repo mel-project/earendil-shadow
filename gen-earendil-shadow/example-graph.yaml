@@ -1,3 +1,3 @@
 adjacencies:
-  - [alice, bob]
-  - [bob, charlie]
+  - [alice, rob]
+  - [rob, bob]

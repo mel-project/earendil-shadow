@@ -1,9 +1,0 @@
-identity: ./bob-identity.asc
-state_cache: ./bob-state-cache.db
-
-in_routes:
-  # arbitrary names, used for diagnositics and logging
-  main_udp:
-    protocol: obfsudp
-    listen: 0.0.0.0:19999
-    secret: correct horse battery staple

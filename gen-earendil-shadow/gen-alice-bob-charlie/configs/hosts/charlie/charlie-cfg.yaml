@@ -1,9 +1,0 @@
-# charlie fingerprint: e527vkaj2cdpep9bej004b64916p0xfr
-identity: ./charlie-identity.asc
-in_routes:
-  main_udp:
-    listen: 0.0.0.0:19999
-    protocol: obfsudp
-    secret: uxhorCNLu1
-out_routes: {}
-state_cache: ./charlie-state-cache.db
